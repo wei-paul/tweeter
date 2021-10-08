@@ -1,0 +1,23 @@
+#tweet-text {
+  width: 100%
+}
+
+.tweetbutton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Bungee";
+}
+
+#button {
+  background: #2aa549;
+  border: 1px solid #082783;
+  box-shadow: 0 1px #4C6BC7 inset;
+  color: white;
+  padding: 3px 5px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #082783;
+  font: 20px Verdana, sans-serif;
+}
+
+

@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  height: 120px;
+  background-color: #4056A1;
+    
+}
+
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  margin: auto 1.5em;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.newtweetcontainer {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.buttontweet:hover {
+  cursor: pointer;
+  color: #8ed3eb; 
+  background-color: transparent;
+  border: 5px solid #f2fafd;
+  border-radius: 5px; 
+  text-transform: uppercase; 
+
+}
+ 
+
+
+
+
+nav span {
+  display: flex;
+  border: 1.5em;
+  color: #FFFFFF;
+  font-family: "Bungee";
+ 
+}
+
+.tweet {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro";
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav i {
+  color: rgb(255, 0, 0)
+}

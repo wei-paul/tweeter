@@ -16,10 +16,76 @@ html {
 
 body {
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: #f1e6d5;
   font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+.warning {
+  display: none;
+	border: 1px solid;
+	margin: 10px auto;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	max-width: 460px;
+  color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('https://i.imgur.com/Z8q7ww7.png');
+}
+
+
+main {
+  
+  margin: auto;
+  width: 90%;
+  background-color: #f1e6d5;
+
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-container {
+  border: 5px solid rgb(96, 121, 121);
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.multipleicon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 118px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blue-hover:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
+.avatar-container {
+  display: inline-block;
+  max-width: 80px;
+  width: 90%;
+}
+
+.avatar-container img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.user-header {
+  width: 100%
+}
+
+.wholetextcontainer {
+  display: none;
+}
