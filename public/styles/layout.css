@@ -25,10 +25,13 @@ body {
 	background-image: url('https://i.imgur.com/Z8q7ww7.png');
 }
 
+
 main {
+  
   margin: auto;
   width: 90%;
   background-color: #f1e6d5;
+  
 }
 
 .tweet-header {
@@ -41,6 +44,10 @@ main {
   border: 5px solid rgb(96, 121, 121);
   margin: 1em 0;
   padding: 1em;
+}
+
+.tweet-container:hover {
+  box-shadow: 5px 5px 5px rgb(116, 138, 179);
 }
 
 .multipleicon {
