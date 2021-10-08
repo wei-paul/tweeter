@@ -21,11 +21,9 @@ nav {
   height: 120px;
   align-items: center;
   justify-content: space-between;
-
 }
 
-.newtweetcontainer {
-  
+.newtweetcontainer { 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,19 +37,13 @@ nav {
   border: 5px solid #f2fafd;
   border-radius: 5px; 
   text-transform: uppercase; 
-
 }
- 
-
-
-
 
 nav span {
   display: flex;
   border: 1.5em;
   color: #FFFFFF;
   font-family: "Bungee";
- 
 }
 
 .tweet {

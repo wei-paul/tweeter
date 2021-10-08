@@ -9,7 +9,6 @@ html {
   padding: 6em;
   background-color: #00c7b6;
   background-image: url("https://www.transparenttextures.com/patterns/retro-intro.png");
-  
 }
 
 .profile {
@@ -17,7 +16,6 @@ html {
   align-items: center;
   justify-content: center;
 }
-
 
 .messages {
   border: 15px
@@ -29,16 +27,12 @@ html {
   padding-right: 15px;
 }
 
-
-
-.picture {
-  
+.picture {  
   display: flex;
   height: 400px;
   width: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 .name {

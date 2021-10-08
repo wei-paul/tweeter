@@ -1,8 +1,5 @@
 $(document).ready(function() {
-  console.log("IT IS WORKING!")
- 
-  $("#tweet-text").on("keyup", onChange)
-  
+  $("#tweet-text").on("keyup", onChange);
 });
 
 const onChange = function () {
@@ -20,4 +17,4 @@ const onChange = function () {
     }
     
   })
-}
+};
