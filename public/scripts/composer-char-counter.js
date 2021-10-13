@@ -12,7 +12,7 @@ const onChange = function () {
     if (remaining < 0) {
       return "red";
     } 
-    if (remaining > 0) {
+    if (remaining >= 0) {
       return "#545149";
     }
     

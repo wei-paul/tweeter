@@ -72,9 +72,9 @@ $(document).ready(function() {
     const MAX_COUNTER = 140;
     event.preventDefault();
     $(".warning").hide();
-    if ($("form")[0][0].value.length > MAX_COUNTER) {
+    if ($("form")[0][0].value.length > MAX_COUNTER || $("form")[0][0].value === "") {
       return $(".warning").show();
-    }
+    } 
     $.ajax({
       url: url,
       method: "POST",
